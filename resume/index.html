@@ -1,38 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>My Resume</title>
+  <meta charset="utf-8" />
+  <title>My Resume</title>
 </head>
 
 <body>
-  <h1>My Resume</h1>
-
-  <nav>
-  <ul>
-    <li> <a href="../about/index.html">About me</a> </li>
-    <li> <a href="index.html">My Resume</a> </li>
-    <li> <a href="../habit/index.html">Habit</a> </li>
-  </ul>
-  </nav>
-
-  <main>
-    <section id="resume-contact">
-    <h2>Contact Sonia Wu at:</h2>
+  <header class="header">
+    <h1>My Resume</h1>
+    <nav>
     <ul>
-      <li>(630)357-9441 </li>
-      <li><a href="mailto:sxww2000@yahoo.com">sxww2000@yahoo.com</a></li>
-      <li><a href="www.XXXX.com/soniawu/">www.XXX.com (not a real url, just for the project)</a></li>
+      <li> <a href="../about/index.html">About me</a> </li>
+      <li> <a href="index.html">My Resume</a> </li>
+      <li> <a href="../habit/index.html">Habit</a> </li>
+    </ul>
+    </nav>
+  </header>
+
+  <main class="main">
+    <section class="h-card" id="resume-contact">
+    <h2>Contact me</h2>
+    <ul>
+      <li class="p-name">Sonia Wu</li>
+      <li class="p-tel">(630)357-9441 </li>
+      <li><a class="u-email" href="mailto:swu52@hawk.iit.edu">swu52@hawk.iit.edu</a></li>
+      <li><a class="u-url" href="www.XXXX.com/soniawu/">www.XXX.com (not a real url, just for the project)</a></li>
     </ul>
     </section>
 
     <section id="resume-profile">
-      <h2>PROFILE</h2>
+      <h2>Profile</h2>
       <p>Put something that can quickly sell me here..............</p>
     </section>
 
     <section id="resume-skill">
-      <h2>SKILL</h2>
+      <h2>Skills</h2>
       <ul>
         <li>Unix/Linyx OS,ksh script</li>
         <li>C</li>
@@ -45,47 +47,72 @@
     </section>
 
     <section id="resume-experience">
-      <h2>PROFESSIONAL EXPERIENCE</h2>
-      <h3>Senior software engineer - Alcatel-Lucent July 1997 March 2016</h3>
+      <h2>Professional Experience</h2>
       <ul>
-        <li>
-          CDMA 1X-EV RNC L4 critical support -Online support ALU customer on EVDO RNC product upgrade. 
-          Debug, diagnose EVDO RNC product upgrade  field and internal lab issues. 
-          Provide code changes for EVDO RNC upgrade bug fix or enhancement during product GA time.
-        </li>
-        <li>
-          CDMA feature development - Responsible for design, coding and end to end testing 
-          for 1X-EVDO RNC OA&M applications. 
-        </li>
-        <li>TDMA ECP Database/RCV ECP/RCS translation development - </li>
-        <li>
-          Design, coding and end to end testing Autoplex Database/RCV for TDMA applications. 
-          Transfer data from ECP to TDMA RCS when database is changed
-        </li>
+        <li><h3>Senior software engineer - Alcatel-Lucent July 1997 March 2016</h3>
+          <ul>
+            <li>
+              <b>CDMA 1X-EV RNC L4 critical support</b> 
+              <ul>
+                <li>Online support ALU customer on EVDO RNC product upgrade</li> 
+                <li>Debug, diagnose EVDO RNC product upgrade  field and internal lab issues</li> 
+                <li>Provide code changes for EVDO RNC upgrade bug fix or enhancement during product GA time</li>
+              </ul>
+            </li>
         
-      </ul>
-      
-      <h3>Software Developer - Computer Associates, Inc. June 1992 - May 1997</h3>
-      <ul>
-        <li>
-          Level 2 customer support - Handle all types of customer issues for enterprice software product PRMS, 
-          from questions, bug fix, and enhancement to documentation updates.Specialize on distribution modules 
-          such as Order Entry and Billing, Purchasing and Receiving.
+            <li>
+              <b>CDMA feature development</b>
+              <ul>
+                <li>Design, coding and end to end testing for 1X-EVDO RNC OAM applications</li>
+              </ul>
+            </li>
+        
+            <li>
+              <b>TDMA ECP Database/RCV ECP/RCS Development</b>
+              <ul>
+                <li>Design, coding and end to end testing Autoplex Database/RCV for TDMA applications</li>
+              </ul>
+            </li>
+        
+            <li>
+              <b>TDMA/CDMA translation development</b>
+              <ul>
+                <li>Transfer data from ECP to TDMA RCS when database is changed</li>
+              </ul>
+            </li>
+          </ul>
         </li>
-        <li>
-          Product configuration - Design and implement automated process to configure the product. 
-          Maintain in-house utilities and development tools which include database administration utilities, 
-          source marking verifier and object movement controller.
-        </li>
-      </ul>
       
-      <h3>Software Developer - Scott-Levin Associations, Inc  August 1988 - May 1990</h3>
-      <ul>
-        <li>
-          Design and develop customized software for pharmaceutical industry. 
-          Define database structure of database objects, manipulate and process of such objects. 
-          Create user-friendly menu-driven user selection panels and data entry panels. 
-          Generate user-specific reports. Establish communication between host and remote stations
+        <li><h3>Software Developer - Computer Associates, Inc. June 1992 - May 1997</h3>
+          <ul>
+            <li>
+              <b>Level 2 customer support</b>
+              <ul>
+                <li>Handle all types of customer issues for enterprice software product PRMS, 
+                from questions, bug fix, and enhancement to documentation updates</li>
+                <li>Specialize on distribution modules such as Order Entry and Billing, 
+                Purchasing and Receiving</li>
+              </ul>
+            </li>
+        
+            <li>
+              <b>Product configuration</b>
+              <ul>
+                <li>Design and implement automated process to configure the product</li> 
+                <li>Maintain in-house utilities and development tools which include database administration 
+                utilities, source marking verifier and object movement controller</li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+      
+        <li><h3>Software Developer - Scott-Levin Associations, Inc  August 1988 - May 1990</h3>
+          <ul>
+            <li>Design and develop customized software for pharmaceutical industry</li>
+            <li>Define database structure of database objects, manipulate and process of such objects</li>
+            <li>Create user-friendly menu-driven user selection panels and data entry panels</li>
+            <li>Generate user-specific reports. Establish communication between host and remote stations</li>
+          </ul>
         </li>
       </ul>
     </section>
@@ -104,6 +131,13 @@
       </ul>
     </section>
   </main>
-  <!-- consider to add footer -->
+  
+  <footer class="footer">
+    <ul>
+      <li><h3>This resume page is posted by Sonia Wu</h3></li>
+      <li>Contact me at <a href="mailto=swu52@hawk.iit.edu">swu52@hawk.iit.edu </a>if you have question</li>
+    </ul>
+  </footer>
+  
 </body>
 </html>

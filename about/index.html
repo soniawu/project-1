@@ -1,32 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>About Sonia Wu</title>
+  <meta charset="utf-8" />
+  <title>About Sonia Wu</title>
 </head>
 
 <body>
-  <h1>About Me</h1>
-  <nav>
-  <ul>
-    <li> <a href="index.html">About me</a> </li>
-    <li> <a href="../resume/index.html">My Resume</a> </li>
-    <li> <a href="../habit/index.html">My Habit</a> </li>
-  </ul>
-  </nav>
+  <header class="header">
+    <h1>About Me</h1>
+    <nav>
+    <ul>
+    <!-- <li> <a href="index.html">About me</a> </li>
+      <li> <a href="../resume/index.html">My Resume</a> </li>
+      <li> <a href="../habit/index.html">My Habit</a> </li> -->
+      <li> <a href="#">About me</a> </li>
+      <li> <a href="../resume/">My Resume</a> </li>
+      <li> <a href="../habit/">My Habit</a> </li>
+    </ul>
+    </nav>
+  </header>
   
-  <article>
-    <h2>My professional life ...</h2>
-    <p>Will write the contents here</p>
-  </article>
+  <main class="main">
+    <article class="introduction">
+      <h2>My professional life ...</h2>
+      <p>Will write the contents here</p>
+    </article>
 
-  <section>
-    <h2>As cutourcy ......, this video is from:...</h2>
-
-    <video src="../videos/beginner-javascript.mp4">
-      Sorry, your browser does not support the video tag.
-    </video>
-  </section>
-  <!-- consider to add footer -->
+    <section class="video">
+      <h2>
+        Video cutourcy of <a href="http://freevideolectures.com/Course/3180/JavaScript">FreeVideo Lectures JAVASCRIPT</a> 
+      </h2>
+      <video controls>
+        <source src="../videos/beginner-javascript.mp4" /> 
+        <source src="../videos/beginner-javascript.webm" />
+        Sorry, your browser does not support the video tag.
+      </video>
+    </section>
+  </main>
+  
+  <footer class="footer">
+    <ul>
+      <li><h3>This About page is posted by Sonia Wu</h3></li>
+      <li>Contact me at <a href="mailto=swu52@hawk.iit.edu">swu52@hawk.iit.edu </a>if you have question</li>
+    </ul>
+  </footer>
 </body>
 </html>
